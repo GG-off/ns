@@ -1,31 +1,7 @@
 #!/bin/bash
-# NewScript.sh
-# créé un nouveau script
-## usage :
-# ns no_space_new_script_name
-# ./SCRIPTS/NewScript.sh
-#
-# MÉMO PERSOS
-# if [ $n = "chaîne" ]; then
-# 	# commandes
-# elif; then
-#	# commandes
-# else
-#	# default commandes
-# fi
-#
-# ${i%.*}
-# ${i##*.}
-# input "$@"
-# mkdir -p
-# ls -l
-# run "$@"
-# run() {
-# 
-# }
-# # # # #
-# j'ai vu qulque part la gestion de dépendences !! gestion flag, help, etc.
-# sudo apt-get install $dependencies01 $dependencies02 $dependenciesnn
+# 'ns' stands for 'new script' and creates a new standard executable shell script, open it in xed and ask for execution.
+# usage : '$ ns new_script_name_without_spaces'
+# or '$ ns' and will ask for a name
 
 if [[ $1 = "" ]] ; then
 	echo "Nom du script à créer, sans extension :" && read NomNewScript
@@ -57,14 +33,6 @@ if [[ $Answer = "y" ]] ; then
 fi
 
 exit 0
-# possibilité d'ajout d'un alias ou de mettre le nouveau script dans usr/local/bin/
-# éventuellement start.sh ou mh.sh
-# ajout dans Collection de script (obsidian)
-# format :
-# dans le somaire : [[#ScriptName]]
-# dans le corps :
-# ## ScriptName
-# ```
 # script
 # ```
 
