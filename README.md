@@ -1,6 +1,6 @@
-'ns' stands for 'new script'
+# 'ns' stands for 'new script'
 
-it creates a new standard executable shell script, open it in xed and ask for execution.
+it creates a new standard executable shell script then opens it in xed and asks for execution.
 
 usage : '$ ns new_script_name_without_spaces'
 
